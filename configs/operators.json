@@ -1,0 +1,46 @@
+{
+  "add": {
+    "signature": "add(x, y)",
+    "description": "x + y"
+  },
+  "sub": {
+    "signature": "sub(x, y)",
+    "description": "x - y"
+  },
+  "mul": {
+    "signature": "mul(x, y)",
+    "description": "x * y"
+  },
+  "div": {
+    "signature": "div(x, y)",
+    "description": "x / y"
+  },
+  "neg": {
+    "signature": "neg(x)",
+    "description": "-x"
+  },
+  "rank": {
+    "signature": "rank(x)",
+    "description": "Cross-sectional percentile ranking of x (higher is better)."
+  },
+  "zscore": {
+    "signature": "zscore(x)",
+    "description": "Z-score standardization of x (cross-sectional or as defined by your factor engine)."
+  },
+  "ts_sum": {
+    "signature": "ts_sum(x, n)",
+    "description": "Rolling time-series sum over the last n observations."
+  },
+  "ts_mean": {
+    "signature": "ts_mean(x, n)",
+    "description": "Rolling time-series mean over the last n observations."
+  },
+  "ts_prod": {
+    "signature": "ts_prod(x, n)",
+    "description": "Rolling time-series product over the last n observations."
+  },
+  "gt": {
+    "signature": "gt(x, c)",
+    "description": "Elementwise comparison x > c returning numeric 1/0 so it can be used as a regime mask."
+  }
+}

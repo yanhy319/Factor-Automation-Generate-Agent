@@ -1,0 +1,38 @@
+{
+  "Stkcd": {
+    "description": "Security code (stock identifier)."
+  },
+  "Trddt": {
+    "description": "Trading date in YYYY-MM-DD format."
+  },
+  "Opnprc": {
+    "description": "Daily opening price."
+  },
+  "Hiprc": {
+    "description": "Daily highest price."
+  },
+  "Loprc": {
+    "description": "Daily lowest price."
+  },
+  "Clsprc": {
+    "description": "Daily closing price."
+  },
+  "Dnshrtrd": {
+    "description": "Daily share trading volume; 0 means no traded volume."
+  },
+  "Dnvaltrd": {
+    "description": "Daily traded value (monetary turnover)."
+  },
+  "Dsmvosd": {
+    "description": "Daily float market value, computed as float shares multiplied by closing price."
+  },
+  "Trdsta": {
+    "description": "Trading status code: 1=normal, 2=ST, 3=*ST, 4=S (post-2006-10-09 reform incomplete), 5=SST, 6=S*ST, 7=G (pre-2006-10-09 reform completed), 8=GST, 9=G*ST, 10=U (pre-2006-10-09 reform incomplete), 11=UST, 12=U*ST, 13=N, 14=NST, 15=N*ST, 16=PT."
+  },
+  "PreClosePrice": {
+    "description": "Previous close price from exchange feed (already adjusted for ex-rights/ex-dividend handling)."
+  },
+  "ChangeRatio": {
+    "description": "Daily change ratio computed as Clsprc / PreClosePrice - 1."
+  }
+}
