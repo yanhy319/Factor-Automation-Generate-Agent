@@ -98,8 +98,9 @@ flowchart LR
 
 ## 数据
 
-### Parquet（FCA 默认 `/data/stock_data.parquet`，路径规则见下）
+### Parquet（FCA 默认示例数据 `/data/stock_data.parquet`）
 
+- **完整日频量价数据**：https://cloud.tsinghua.edu.cn/d/9a6da85cc45c46ea9e79/
 - **长表**：每行一只股票在一个交易日的观测。
 - **执行与回测当前实现依赖的列名**（与 `interpreter` / `FCA.backtest` 一致）：
   - `Trddt`：交易日期  
