@@ -83,7 +83,7 @@ flowchart LR
 
 | 路径 | 作用 |
 |------|------|
-| [`hub/`](hub/) | **本仓库内的 SentenceTransformer / Hugging Face Hub 风格本地模型目录**，供 KEA 的 RAG 阶段加载嵌入模型。本项目使用 `BAAI/bge-m3` 从 Hugging Face 下载后放入此目录下。 |
+| [`hub/`](hub/) | **本仓库内的 SentenceTransformer / Hugging Face Hub 风格本地模型目录**，供 KEA 的 RAG 阶段加载嵌入模型。使用 `BAAI/bge-m3` 从 Hugging Face 或 https://cloud.tsinghua.edu.cn/d/9a6da85cc45c46ea9e79/ 下载后放入此目录下。 |
 
 
 ### 其他
